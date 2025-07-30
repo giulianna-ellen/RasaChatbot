@@ -123,6 +123,7 @@ actions:
   - action_handle_general_question
   - action_extract_info_with_gemini
   - validate_formulario_agendamento
+  - action_ler_pdf_e_responder
 
 forms:
   formulario_agendamento:
