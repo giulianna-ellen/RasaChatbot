@@ -47,3 +47,8 @@ rules:
   - active_loop: null
   - action: action_agendar_consulta
   - action: utter_agradecimento 
+
+- rule: Responder com base no PDF
+  steps:
+    - intent: perguntar_material_pdf
+    - action: action_ler_pdf_e_responder
